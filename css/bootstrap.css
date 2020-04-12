@@ -643,6 +643,7 @@ pre code {
   -ms-flex-positive: 1;
   flex-grow: 1;
   max-width: 100%;
+  margin-bottom: 3%;
 }
 
 .row-cols-1 > * {
@@ -2039,7 +2040,7 @@ pre code {
   font-weight: 400;
   line-height: 1.5;
   color: black;
-  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.377);
   background-clip: padding-box;
   border: 1px solid #366fa8;
   border-radius: 0.25rem;
@@ -2064,7 +2065,7 @@ pre code {
 
 .form-control:focus {
   color: #495057;
-  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.527);
   border-color: #80bdff;
   outline: 0;
   box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
@@ -2091,7 +2092,7 @@ pre code {
 }
 
 .form-control::placeholder {
-  color: white;
+  color: black;
   opacity: 1;
 }
 

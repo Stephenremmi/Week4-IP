@@ -10,7 +10,7 @@
       height: 100%;
       margin: 0;
       }
-      .bg-img1, .bg-img2, .bg-img3 {
+      .bg-img1{
        position: relative;
        background-position: center;
        background-size: cover;
@@ -18,10 +18,6 @@
       .bg-img1 {
          background-image: url("img/pizza.png");
          min-height: 100%;
-      }
-      .bg-img2 {
-         background-image: url("img/s_image.jpg");
-         min-height: 400px;
       }
     </style>
     <title>Address book</title>
@@ -37,14 +33,25 @@
     </div>
     <div id="details">
       <div class = "container" >
-        <div class="row">
-          <div class="col">
-            <input type="text" class="form-control" id="name" placeholder="Name..." name="name">
+        <form action="page2.html">
+          <div class="text1">
+            <h1>Please fill in your details</h1>
           </div>
           <div class="col">
-            <input type="text" class="form-control" placeholder="Email..." id="email" name="email">
+            <input type="text" class="form-control" id="name" placeholder="First Name..." name="name1">
           </div>
-        </div>
+          <div class="col">
+            <input type="text" class="form-control" placeholder="Second Name..." id="name2" name="name2">
+          </div>
+          <div class="col">
+            <input type="number" class="form-control" placeholder="Phone number..." id="number" name="number">
+          </div>
+          <div class="col">
+            <input type="email" class="form-control" placeholder="Email..." id="email" name="email">
+          </div>
+          <button class="button" onclick="save()" id="button" type="submit" >Submit</button>
+        </form>
     </div>
+
   </body>
 </html>

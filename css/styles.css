@@ -9,7 +9,26 @@
     
 }
 #details{
-    
-    
-    padding-top: 5%;
+    padding-top: 3%;
+    background-color: rgba(0, 0, 0, 0.068);
+    padding-bottom: 2%;
+}
+.text1{
+    text-align: center;
+    padding-bottom: 3%;
+    font-family: DejaVu Sans Mono, monospace;
+
+}
+#button{
+    background-color: transparent;
+    border-radius: 12%;
+    padding-left: 10px;
+    margin-left: 1.5%;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    text-decoration: none;
+}
+.size{
+    float: right;
+    width: 400px;
 }
