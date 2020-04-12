@@ -35,7 +35,7 @@
     text-align: center;
     padding-bottom: 3%;
     font-family: DejaVu Sans Mono, monospace;
-    padding-top: 35%;
+    padding-top: 38%;
 }
 #button{
     background-color: transparent;
@@ -46,20 +46,7 @@
     padding-bottom: 6px;
     text-decoration: none;
 }
-.size1{
-    float: left;
-    width: 32%;
-    height: 17%;
-    padding-top: 5%;
-    text-align: center;
-}
-.size2{
-    float: left;
-    width: 32%;
-    height: 17%;
-    padding-top: 5%;
-    text-align: center;
-}
+
 .size3{
     float: left;
     width: 32%;
