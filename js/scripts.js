@@ -1,5 +1,6 @@
-$(document).ready(function(){
-  $( "#small" ).click(function() {
-    alert( "Handler for .click() called." );
+$(document).ready(function() {
+  $("button").click(function() {
+    $("#dev-hide").toggle();
+    $("#dev-show").toggle();
   });
 });
