@@ -19,6 +19,12 @@
     font-family: DejaVu Sans Mono, monospace;
 
 }
+.text2{
+    text-align: center;
+    padding-bottom: 3%;
+    font-family: DejaVu Sans Mono, monospace;
+    padding-top: 4%;
+}
 #button{
     background-color: transparent;
     border-radius: 12%;
@@ -28,7 +34,33 @@
     padding-bottom: 6px;
     text-decoration: none;
 }
-.size{
-    float: right;
-    width: 400px;
+.size1{
+    float: left;
+    width: 32%;
+    height: 17%;
+    padding-top: 5%;
+    text-align: center;
+}
+.size2{
+    float: left;
+    width: 32%;
+    height: 17%;
+    padding-top: 5%;
+    text-align: center;
+}
+.size3{
+    float: left;
+    width: 32%;
+    height: 17%;
+    padding-top: 5%;
+    text-align: center;
+}
+.show1{
+    cursor: pointer;
+}
+.show2{
+    cursor: pointer;
+}
+.show3{
+    cursor: pointer;
 }
