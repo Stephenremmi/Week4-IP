@@ -55,6 +55,14 @@
     text-align: center;
     padding-bottom: 5%;
 }
+.size2{
+    float: left;
+    width: 32%;
+    height: 12%;
+    padding-top: 5%;
+    text-align: center;
+    padding-bottom: 5%;
+}
 .show1{
     cursor: pointer;
 }
