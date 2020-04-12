@@ -53,6 +53,7 @@
     height: 12%;
     padding-top: 5%;
     text-align: center;
+    padding-bottom: 5%;
 }
 .show1{
     cursor: pointer;
@@ -62,4 +63,7 @@
 }
 .show3{
     cursor: pointer;
+}
+.output{
+    padding-top: 38%;
 }
