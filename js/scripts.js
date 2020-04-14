@@ -26,8 +26,8 @@ function chili(){
     document.getElementById("toppings1").innerHTML = "Chili ------ ksh.100";
 }
 function cheese(){
-    document.getElementById("toppings2").innerHTML = "Chili ------ ksh.100";
+    document.getElementById("toppings2").innerHTML = "Cheese ------ ksh.100";
 }
 function pepperoni(){
-    document.getElementById("ptoppings3").innerHTML = "Hello World";
+    document.getElementById("ptoppings3").innerHTML = "Pepperoni ------ ksh.100";
 }
