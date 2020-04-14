@@ -82,3 +82,12 @@
    text-align: start;
    font-family: DejaVu Sans Mono, monospace;
 }
+#tt{
+    border-radius: 8%;
+    padding: 0.5%;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: rgba(119, 121, 1, 0.24);
+    margin-top: 0.5%;
+    
+}
