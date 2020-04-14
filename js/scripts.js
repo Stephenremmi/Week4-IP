@@ -22,9 +22,12 @@ function stuffed(){
 function glutten(){
     document.getElementById("crust3").innerHTML = "Hello World";
 }
-function stuffed(){
-    document.getElementById("crust1").innerHTML = "Hello World";
+function chili(){
+    document.getElementById("toppings1").innerHTML = "Hello World";
 }
-function stuffed(){
-    document.getElementById("crust1").innerHTML = "Hello World";
+function cheese(){
+    document.getElementById("toppings2").innerHTML = "Hello World";
+}
+function pepperoni(){
+    document.getElementById("ptoppings3").innerHTML = "Hello World";
 }
