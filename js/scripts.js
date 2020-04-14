@@ -14,19 +14,19 @@ function large(){
     document.getElementById("size3").innerHTML = "Large ------ khs.1000";
 }
 function crispy(){
-    document.getElementById("crust1").innerHTML = "Hello World";
+    document.getElementById("crust1").innerHTML = "Crispy ------ ksh.100";
 }
 function stuffed(){
-    document.getElementById("crust2").innerHTML = "Hello World";
+    document.getElementById("crust2").innerHTML = "Stuffed ------ ksh.200";
 }
 function glutten(){
-    document.getElementById("crust3").innerHTML = "Hello World";
+    document.getElementById("crust3").innerHTML = "Glutten free ------ ksh.150";
 }
 function chili(){
-    document.getElementById("toppings1").innerHTML = "Hello World";
+    document.getElementById("toppings1").innerHTML = "Chili ------ ksh.100";
 }
 function cheese(){
-    document.getElementById("toppings2").innerHTML = "Hello World";
+    document.getElementById("toppings2").innerHTML = "Chili ------ ksh.100";
 }
 function pepperoni(){
     document.getElementById("ptoppings3").innerHTML = "Hello World";
