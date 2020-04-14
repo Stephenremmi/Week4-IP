@@ -75,3 +75,10 @@
 .output{
     padding-top: 38%;
 }
+.pizzasizes{
+   
+   background:rgba(119, 121, 1, 0.24);
+   padding: 6%;
+   text-align: start;
+   font-family: DejaVu Sans Mono, monospace;
+}
