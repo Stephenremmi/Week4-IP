@@ -5,7 +5,7 @@ function pizza(pizzaSize,pizzaCrust,pizzaToppings){
 }
 
 function small(){
-    document.getElementById("demo").innerHTML = "Hello World";
+    document.getElementById("demo").innerHTML = "Small ------ ksh.450";
 }
 function medium(){
     document.getElementById("size2").innerHTML = "Medium ------ ksh.750";
