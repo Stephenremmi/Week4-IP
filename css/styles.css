@@ -37,6 +37,12 @@
     font-family: DejaVu Sans Mono, monospace;
     padding-top: 38%;
 }
+.text5{
+    text-align: center;
+    padding-bottom: 3%;
+    font-family: DejaVu Sans Mono, monospace;
+    padding-top: 2%;
+}
 #button{
     background-color: transparent;
     border-radius: 12%;
