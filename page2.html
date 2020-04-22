@@ -4,7 +4,7 @@
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
-    <script src="js/jquery-3-4-1.js"></script>
+    <script src="js/jquery-3.4.1.js"></script>
     <script src="js/scripts.js"></script>
     <style>
       body, html {
@@ -35,21 +35,21 @@
                 <div class="size3" id="small">
                  <img src="img/size2.png" style="width:76%;"></img>
                  <p><h3>Small (sh.450)</h3></p>
-                 <input type="radio" id="small" value="450" onclick="small();"></br>Add to cart</input>
+                 <input type="radio" id="small" value="450" name="size" onclick="small();"></br>Add to cart</input>
                 </div>
             </div>
             <div class="show2">
                 <div class="size2">
                  <img src="img/size2.png" style="width:82%;"></img>
                  <p><h3>Medium (sh.750)</h3></p>
-                 <input type="radio" id="medium" value="750" onclick="medium();"></br>Add to cart</input>
+                 <input type="radio" id="medium" value="750" name="size" onclick="medium();"></br>Add to cart</input>
                 </div>
             </div>
             <div class="show3">
                 <div class="size3">
                  <img src="img/size2.png" style="width:92%;  "></img>
                  <p><h3>Large (sh.1000)</h3></p>
-                 <input type="radio" id="large" value="1000" onclick="large();"></br>Add to cart</input>
+                 <input type="radio" id="large" value="1000" name="size" onclick="large();"></br>Add to cart</input>
                 </div>
             </div>
         </div>
@@ -61,17 +61,17 @@
             <div class="size3">
                 <img src="img/gluten.png" style="width:92%;  "></img>
                 <p><h3>Glutten free (sh.150)</h3></p>
-                <input type="radio" id="glutten" value="1000" onclick="glutten();"></br>Add to cart</input>
+                <input type="radio" id="glutten" value="1000" name="crust" onclick="glutten();"></br>Add to cart</input>
             </div>
             <div class="size3">
                 <img src="img/crispy.png" style="width:92%;  "></img>
              <p><h3>Crispy (sh.100)</h3></p>
-                <input type="radio" id="crispy" value="100" onclick="crispy();"></br>Add to cart</input>
+                <input type="radio" id="crispy" value="100" name="crust" onclick="crispy();"></br>Add to cart</input>
             </div>
             <div class="size3">
                 <img src="img/stuffed.png" style="width:92%;  "></img>
                 <p><h3>Stuffed (sh.200)</h3></p>
-                <input type="radio" id="stuffed" value="1000" onclick="stuffed();"></br>Add to cart</input>
+                <input type="radio" id="stuffed" value="1000" name="crust" onclick="stuffed();"></br>Add to cart</input>
             </div>
         </div>
         <div class="toppings">
@@ -82,39 +82,35 @@
             <div class="size3">
                 <img src="img/chili.png" style="width:52%;  "></img>
                 <p><h3>Chili (sh.50)</h3></p>
-                <input type="radio" id="chili" value="1000" onclick="chili();"></br>Add to cart</input>
+                <input type="radio" id="chili" value="1000" name="toppings" onclick="chili();"></br>Add to cart</input>
             </div>
             <div class="size3">
                 <img src="img/cheese.png" style="width:52%;"></img>
                 <p><h3>Cheese (sh.50)</h3></p>
-                <input type="radio" id="cheese" value="1000" onclick="cheese();"></br>Add to cart</input>
+                <input type="radio" id="cheese" value="1000" name="toppings" onclick="cheese();"></br>Add to cart</input>
             </div>
             <div class="size3">
                 <img src="img/pepperoni.png" style="width:52%; padding-bottom: 14%;"></img>
                 <p><h3>Pepperoni (sh.50)</h3></p>
-                <input type="radio" id="pepperoni" value="1000" onclick="pepperoni();"></br>Add to cart</input>
+                <input type="radio" id="pepperoni" value="1000" name="toppings" onclick="pepperoni();"></br>Add to cart</input>
             </div>
         </div>
         <div class="output">
         <div class="pizzasizes">
             <h6>Checkout:</h6>
-            <p id="size1"></p>
-            <p id="size2"></p>
-            <p id="size3"></p>
-            <p id="crust1"></p>
-            <p id="crust2"></p>
-            <p id="crust3"></p>
-            <p id="toppings1"></p>
-            <p id="toppings2"></p>
-            <p id="toppings3"></p>
-            <p id="deliverfee"></p>
+            <p id="view"></p>
+            
         </div>
         <div class="end">
-            <div class="text5">
-                <h1>How would you like to get your goods</h1>
+            <div class="text5"> 
+                <label><h5>How many pizzas would you like?</h5></label><br> 
+                    <input class="number" type="number" name="number" id="number" min="0"> <br>
+            </div>
+            <div class="text6">
+                <h1>How would you like to get your goods<br><br></h1>
                 <input type="radio" id ="deliver" name="box1" onclick="deliver();">Deliver (ksh.100)</br></input>
                 <input type="radio" id ="pickUp" name="box1" onclick="pickUp();">Pick up</br></input>
-                <button id="tt" onclick="tt();">Total</button>
+                <input type="submit" id="tt" value ="Total"></button>
             </div>
         </div>
     </div>
