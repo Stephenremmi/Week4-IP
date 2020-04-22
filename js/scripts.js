@@ -64,8 +64,23 @@ function pepperoni(){
     document.getElementById("toppings3").innerHTML = "Pepperoni ------ ksh.100";
 }
 function deliver(){
-    prompt("Enter location");
-    prompt("Enter House Number");
+    const location = prompt("Enter location");
+    const house = prompt("Enter House Number");
+    if(location == ""){
+        alert("Location must be filled out");
+        return false;
+    }
+    
+    if(house == ""){
+        alert("House number must be filled out");
+        return false;
+    }
+
+    else{
+        alert("Your order will be delivered to"+ " " + location + " " + house);
+        return false;
+    }
     document.getElementById("deliverfee").innerHTML = "Delivery ------ ksh.100";
+
 }
 
