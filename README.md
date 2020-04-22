@@ -26,3 +26,6 @@ You can get the license here:
 https://github.com/ckorir/Week4-IP/blob/master/LICENSE
 
 Copyright (c) {2020} Korir
+
+## Screenshots
+![](img/sc1.png)
