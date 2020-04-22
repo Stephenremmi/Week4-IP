@@ -1,3 +1,17 @@
+function save() {
+    var x = document.getElementById("name").value;
+    if (x == "") {
+      alert("Name must be filled out");
+      return false;
+
+      event.preventDefault();
+    }
+  }
+
+
+
+
+
 function pizza(pizzaSize,pizzaCrust,pizzaToppings){
     this.size = size
     this.crust = crust
