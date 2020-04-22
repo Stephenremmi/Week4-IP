@@ -29,3 +29,8 @@ Copyright (c) {2020} Korir
 
 ## Screenshots
 ![](img/sc1.png)
+![](img/sc2.png)
+![](img/sc3.png)
+![](img/sc4.png)
+![](img/sc5.png)
+![](img/sc6.png)
