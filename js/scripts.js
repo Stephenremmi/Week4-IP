@@ -1,13 +1,30 @@
 function save() {
-    var x = document.getElementById("name").value;
-    if (x == "") {
-      alert("Name must be filled out");
+    var firstName = document.getElementById("name").value;
+    var secondName = document.getElementById("name2").value;
+    var  phoneNumber= document.getElementById("number").value;
+    var emailAddress = document.getElementById("email").value;
+    
+
+    if (firstName == "") {
+      alert("First name must be filled out");
       return false;
-
-      event.preventDefault();
     }
-  }
 
+    if (secondName == "") {
+    alert("Second name must be filled out");
+    return false;
+    }
+
+    if (phoneNumber == "") {
+    alert("Phone number must be filled out");
+    return false;
+    }
+
+    if (emailAddress == "") {
+    alert("Email address must be filled out");
+    return false;
+    }
+}
 
 
 
