@@ -15,7 +15,7 @@ For you to start up you require:
 
 ## Live link to webpage
 You can use this link to access the website:
-https://ckorir.github.io/Delani/
+https://ckorir.github.io/Week4-IP/
 
 ## Contact Details
 Email:
@@ -23,6 +23,6 @@ chrisruto.k@gmail.com
 
 ## License
 You can get the license here:
-https://github.com/ckorir/Delani/blob/master/LICENSE
+https://github.com/ckorir/Week4-IP/blob/master/LICENSE
 
 Copyright (c) {2020} Korir
